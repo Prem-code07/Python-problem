@@ -7,4 +7,4 @@ def fibonnaci_series(n):
             print(a,end=" ")
             a,b=b,a+b
 n=int(input("Enter a number : "))
-print(f"Fibbonaci series of {n} is : {fibonnaci_series(n)}")            
+print(f"Fibbonaci series of {n} is : {fibonnaci_series(n)}")
