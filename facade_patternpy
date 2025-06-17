@@ -1,0 +1,19 @@
+class CPU:
+    def start(self):
+        print("CPU starting...")
+
+class Memory:
+    def load(self):
+        print("Memory loading...")
+
+class ComputerFacade:
+    def __init__(self):
+        self.cpu = CPU()
+        self.memory = Memory()
+
+    def start_computer(self):
+        self.cpu.start()
+        self.memory.load()
+
+computer = ComputerFacade()
+computer.start_computer()
